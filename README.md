@@ -10,6 +10,8 @@ At the end, you will receive the pixelated image in the same folder as the code 
 
 You don't have to memorize all the steps. Messages in the code will guide you through the entire process.
 
+I've also added a few test images in case you want to see how it works.
+
 
 
 I am working on improving the color palette.
