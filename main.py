@@ -44,7 +44,9 @@ for i in range(len(data) + 1):
     elif i != len(data):
         b += [data[i]] * scale
 newdata = sum(newdata, [])
-im2.putdata(newdata)
+newsize = tuple(map(lambda x: x * scale, newsize))
+im2 = im2.resize(newsize)
+im2.putdata(newdata)  # change {im2 size} relative to {newdata}
 print('----------')
 newfile = input('Give the new file a name (with extension):')
 im2.save(newfile)
